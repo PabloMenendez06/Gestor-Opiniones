@@ -7,6 +7,7 @@ import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticiones.js';
 import authRoutes from '../src/auth/auth.routes.js'
+import userRouter from '../src/users/user.routes.js'
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -19,6 +20,7 @@ const middlewares = (app) => {
 
 const routes =(app) => {
     app.use("/Gestor-Opiniones/v1/auth", authRoutes);
+    app.use("/Gestor-Opiniones/v1/users", userRouter )
 }
  
  
