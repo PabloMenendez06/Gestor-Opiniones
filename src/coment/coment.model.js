@@ -1,9 +1,9 @@
 import { Schema, model } from "mongoose";
 
-const CommentSchema = new Schema({
+const ComentSchema = new Schema({
     content: {
         type: String,
-        required: [true, "Comment content is required"]
+        required: [true, "Coment content is required"]
     },
     user: {
         type: Schema.Types.ObjectId,
@@ -20,4 +20,4 @@ const CommentSchema = new Schema({
     versionKey: false
 });
 
-export default model("Comment", CommentSchema);
+export default model("Coment", ComentSchema);
