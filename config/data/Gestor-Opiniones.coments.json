@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67bddc086127a97f63a7d391"
+  },
+  "content": "Interesante post",
+  "user": {
+    "$oid": "67bdd3446127a97f63a7d35b"
+  },
+  "post": {
+    "$oid": "67bddbef6127a97f63a7d38a"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T15:04:40.890Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T15:04:40.890Z"
+  }
+}]

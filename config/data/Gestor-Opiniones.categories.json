@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67bdd3446127a97f63a7d35e"
+  },
+  "name": "Categoria defecto",
+  "createdAt": {
+    "$date": "2025-02-25T14:27:16.498Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T14:27:16.498Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd5f76127a97f63a7d368"
+  },
+  "name": "Cine y television",
+  "createdAt": {
+    "$date": "2025-02-25T14:38:47.708Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T14:38:47.708Z"
+  }
+}]

@@ -11,6 +11,7 @@ import userRouter from '../src/users/user.routes.js'
 import categoryRoutes from '../src/category/category.routes.js'
 import userRoutes from '../src/users/user.routes.js'
 import postRoutes from '../src/post/post.routes.js'
+import comentRoutes from '../src/coment/coment.routes.js'
 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
@@ -24,9 +25,10 @@ const middlewares = (app) => {
 const routes =(app) => {
     app.use("/Gestor-Opiniones/v1/auth", authRoutes);
     app.use("/Gestor-Opiniones/v1/users", userRouter )
-    app.use("/Gestor-Opiniones/category", categoryRoutes )
-    app.use("/Gestor-Opiniones/users", userRoutes )
-    app.use("/Gestor-Opiniones/post", postRoutes )
+    app.use("/Gestor-Opiniones/v1/category", categoryRoutes )
+    app.use("/Gestor-Opiniones/v1/users", userRoutes )
+    app.use("/Gestor-Opiniones/v1/post", postRoutes )
+    app.use("/Gestor-Opiniones/v1/coment", comentRoutes)
 }
  
  
