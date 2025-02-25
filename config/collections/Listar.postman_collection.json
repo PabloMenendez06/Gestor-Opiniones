@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "864444bf-5a27-4a22-ac44-06af40a6643a",
+		"name": "Listar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619524"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/category/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

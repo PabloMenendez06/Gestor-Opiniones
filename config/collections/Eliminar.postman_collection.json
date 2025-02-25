@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "da45ef43-7704-4584-84ac-2c32172829cf",
+		"name": "Eliminar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619524"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/post/67bdd54b6127a97f63a7d363",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDM0NDYxMjdhOTdmNjNhN2QzNWIiLCJpYXQiOjE3NDA0OTU1MzEsImV4cCI6MTc0MDQ5OTEzMX0.C9FSjxz9I8q4megdY61mw-krf941X993g-TrvPFPF3o",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/coment/67bdd6be6127a97f63a7d36e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"coment",
+						"67bdd6be6127a97f63a7d36e"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

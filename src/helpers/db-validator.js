@@ -1,6 +1,7 @@
 import User from '../users/user.model.js';
 import Post from "../post/post.model.js";
 import Category from "../category/category.model.js";
+import Coment from "../coment/coment.model.js";
 
 export const existenteEmail = async (email = '') =>{
     const existeEmail = await User.findOne({ email });
@@ -32,5 +33,11 @@ export const existingCategory = async (id = '') => {
     const category = await Category.findById(id);
     if (!category) {
         throw new Error(`The category with ID ${id} does not exist.`);
+    }
+};
+export const existingComent = async (id = '') => {
+    const coment = await Coment.findById(id);
+    if (!coment) {
+        throw new Error(`The coment with ID ${id} does not exist.`);
     }
 };
