@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "c40ed609-4b1f-4f72-803e-e8698108b334",
+		"name": "Editar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619524"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/users/edit",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkYzg0ZDNjMDVlOWJmNzRjYTc5ODciLCJpYXQiOjE3NDA0OTA4NDksImV4cCI6MTc0MDQ5NDQ0OX0.IPekU0Qj3OTsVCON2kzHGCPyi_X_su-An8RmKvQhDIw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"messi@gmail.com\",\r\n    \"password\": \"12345678\",\r\n    \"newPassword\": \"87654321\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/users/edit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"users",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/post/67bdd54b6127a97f63a7d363",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkYzg0ZDNjMDVlOWJmNzRjYTc5ODciLCJpYXQiOjE3NDA0OTQ2NzIsImV4cCI6MTc0MDQ5ODI3Mn0.wpxvvBj8vBxl90x_7gi2xPSl_-NdS6hvuFxGkd6p7J4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Error en el post anterior\",\r\n    \"category\": \"67bdd3446127a97f63a7d35e\",\r\n    \"content\": \"Este post es el corregido\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/post/67bdd54b6127a97f63a7d363",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"post",
+						"67bdd54b6127a97f63a7d363"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/coment/67bdd6be6127a97f63a7d36e",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDM0NDYxMjdhOTdmNjNhN2QzNWIiLCJpYXQiOjE3NDA0OTQ5ODUsImV4cCI6MTc0MDQ5ODU4NX0.Y2DqYEhYbk-BSL-QO2C623EHKXfeZIa5MRJk9MVu59Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"content\": \"comentario corregido\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/coment/67bdd6be6127a97f63a7d36e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"coment",
+						"67bdd6be6127a97f63a7d36e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

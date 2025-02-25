@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "67bdc7b63c05e9bf74ca7981"
+  },
+  "name": "Cristiano",
+  "surname": "Ronaldo",
+  "username": "CR7",
+  "email": "Cristiano@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$5BqWVfu0YpN4ZhQdIpRYdA$8burFHE1i/kB/osndbLyHms6qcvFo4ImtEJYbu3jKPs",
+  "role": "USER",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T13:37:58.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T13:37:58.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdc84d3c05e9bf74ca7987"
+  },
+  "name": "messi",
+  "surname": "messi",
+  "username": "frionel",
+  "email": "messi@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$LcxGOlPiL8xVwUfomWRtyQ$rN9o/aJQdzltOXIfXLjeVJeg7zWsiNqbqGfcKOvwIHY",
+  "role": "USER",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T13:40:29.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T13:45:05.334Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bdd3446127a97f63a7d35b"
+  },
+  "name": "Cristiano",
+  "surname": "Ronaldo",
+  "username": "cristianoronaldo",
+  "email": "ronaldo@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$oGyp9aklJpl7JZHf5dOQvA$7p+gowjqbGk9RTwZ+6BDoV6U93XjShu/PGLR0Ex29B0",
+  "role": "ADMIN",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-25T14:27:16.494Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T14:27:16.494Z"
+  }
+}]
