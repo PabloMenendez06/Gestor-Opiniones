@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "e2e265f7-9d61-4dec-9de7-16f073ae5987",
+		"name": "Agregar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619524"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/post/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkYzg0ZDNjMDVlOWJmNzRjYTc5ODciLCJpYXQiOjE3NDA0OTQwODMsImV4cCI6MTc0MDQ5NzY4M30.UZwVzbIaVrKsB8j9__1zoBVrLADp7zs0DiXwTW8LDxc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Este es mi primer post\",\r\n    \"category\": \"67bdd3446127a97f63a7d35e\",\r\n    \"content\": \"este es mi primer post en la categoria default\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/post/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"post",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/category/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDM0NDYxMjdhOTdmNjNhN2QzNWIiLCJpYXQiOjE3NDA0OTQyOTQsImV4cCI6MTc0MDQ5Nzg5NH0.lzRWloOi9MAknn9ksE3QwLGrcvFbLXmkBL7RTEl78vY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Cine y television\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/category/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/Gestor-Opiniones/v1/coment",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDM0NDYxMjdhOTdmNjNhN2QzNWIiLCJpYXQiOjE3NDA0OTQ0NTYsImV4cCI6MTc0MDQ5ODA1Nn0.UO37QAjc9bVlwoj8e2wm71vaipBEq4gr2JYAMI8g1Vk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"content\": \"Interesante post\",\r\n  \"post\": \"67bddbef6127a97f63a7d38a\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Gestor-Opiniones/v1/coment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Gestor-Opiniones",
+						"v1",
+						"coment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

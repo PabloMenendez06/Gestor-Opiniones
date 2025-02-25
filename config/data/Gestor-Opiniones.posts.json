@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "67bddbef6127a97f63a7d38a"
+  },
+  "title": "Este es mi primer post",
+  "category": {
+    "$oid": "67bdd3446127a97f63a7d35e"
+  },
+  "content": "este es mi primer post en la categoria default",
+  "user": {
+    "$oid": "67bdc84d3c05e9bf74ca7987"
+  },
+  "createdAt": {
+    "$date": "2025-02-25T15:04:15.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-25T15:04:15.517Z"
+  }
+}]
